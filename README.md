@@ -48,6 +48,6 @@ In this case we have used t3.2xlarge instance which is more powerful as the mode
 
  Below is the snap of the autoscaling paramters.
 
- ![Autoscaling Params](auto_sclaing_param.png)
+ ![Autoscaling Params](snaps/auto_sclaing_param.png)
 
  ![Auto Scaling Deployed](autoscaling.png)
