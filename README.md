@@ -31,6 +31,7 @@ In this case we have used t3.2xlarge instance which is more powerful as the mode
 
  Below is the lambda function setup giving IAM access to the role and deploying the python file
 
+![IAM Security](iam_sec.png)
 
  Below is the output from when testing the lambda function
 
