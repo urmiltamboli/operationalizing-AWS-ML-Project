@@ -1,1 +1,3 @@
-# operationalizing-AWS-ML-Project
+#Operationalizing-AWS-ML-Project
+
+##Training and deployment
