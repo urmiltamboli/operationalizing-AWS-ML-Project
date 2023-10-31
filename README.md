@@ -29,7 +29,7 @@ In this case we have used t3.2xlarge instance which is more powerful as the mode
 
  ## Lambda function setup and security
 
- Below is the lambda function setup giving IAM access to the role and deploying the python file
+ Below is the lambda function setup giving IAM access to the role and deploying the python file. As seen below, two policies are attched to make sure the Lambda runs properly and also able to access Sagemaker endpoints for the requests. Adding the FullAccess will give other access to the Lambda which is not required for this application so we can narrow it down to just access the endpoint for this exercise.
 
 ![IAM Security](iam_sec.png)
 
@@ -40,7 +40,7 @@ In this case we have used t3.2xlarge instance which is more powerful as the mode
 
  ## Concurrency
 
- We have reserved 2 Provisional concurreny for this lambda. This type would generate high cost as per our requirement. 
+ We have reserved 2 Provisional concurreny for this lambda. This type would good for our requirement as it would not generate high cost but also keep ensure 2 lambda can be invoked at the same time.
 
 ![Concurrency](concurrency.png)
 
