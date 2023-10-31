@@ -6,7 +6,7 @@ For this training and deployment, ml.t3.medium instance is created as it is incl
 
 
 Data is downloaded into the created bucket as below:
-
+![s3 Bucket](s3_bucket.png)
 
 
 
