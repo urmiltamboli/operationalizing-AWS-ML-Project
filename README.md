@@ -4,7 +4,7 @@
 
 For this training and deployment, ml.t3.medium instance is created as it is included in the free tier and the we are just using it to run the notebook as the training will be on the much powerfull instance. We do not need much computational power while running the notebook so i believe this is the best economical and effiencent instance.
 
-![Notebook Instance](instance.png)
+![Notebook Instance](snap/instance.png)
 
 Data is downloaded into the created bucket as below:
 
